@@ -4,12 +4,24 @@ import java.io.Serializable;
 
 public class FirstContactDto implements Serializable {
 
+
+    //VERIFY THIS CLASS
+
+    private String userId;
     private String name;
     private String externalId;
     private String email;
     private String phoneNumber;
     private String source;
     private String message;
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
 
     public String getName() {
         return name;
