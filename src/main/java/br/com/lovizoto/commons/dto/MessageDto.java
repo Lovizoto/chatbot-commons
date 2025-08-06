@@ -1,33 +1,10 @@
 package br.com.lovizoto.commons.dto;
 
-import java.io.Serializable;
+public class MessageDto {
 
-public class FirstContactDto implements Serializable {
-
-
-    //VERIFY THIS CLASS
-
-    private String userId;
-    private String name;
     private String externalId;
     private String source;
     private String message;
-
-    public String getUserId() {
-        return userId;
-    }
-
-    public void setUserId(String userId) {
-        this.userId = userId;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public String getExternalId() {
         return externalId;
