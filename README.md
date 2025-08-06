@@ -1,4 +1,4 @@
-CHATBOT PROJECT - CLASSES COMUNS
+CHATBOT PROJECT - CLASSES COMUNS (EM DESENVOLVIMENTO)
 
 Este projeto é composto por 4 repositórios que juntos implementam um chatbot completo, que fazem parte do fluxograma abaixo.
 
